@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cython = "*"
+pycocotools = {subdirectory = "PythonAPI", git = "https://github.com/cocodataset/cocoapi.git"}
+submitit = "*"
+scipy = "*"
+onnx = "*"
+onnxruntime = "*"
+transformers = "*"
+requests = "*"
+numpy = "<1.24"
+opencv-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8.10"
